@@ -128,6 +128,38 @@ public class ZImageView extends ImageView {
         this.zUnableSrc = zUnableSrc;
     }
 
+    public Drawable getzSelectedDrawable() {
+        return zSelectedDrawable;
+    }
+
+    public void setzSelectedDrawable(Drawable zSelectedDrawable) {
+        this.zSelectedDrawable = zSelectedDrawable;
+    }
+
+    public Drawable getzUnableDrawable() {
+        return zUnableDrawable;
+    }
+
+    public void setzUnableDrawable(Drawable zUnableDrawable) {
+        this.zUnableDrawable = zUnableDrawable;
+    }
+
+    public Drawable getzPressedDrawable() {
+        return zPressedDrawable;
+    }
+
+    public void setzPressedDrawable(Drawable zPressedDrawable) {
+        this.zPressedDrawable = zPressedDrawable;
+    }
+
+    public Drawable getzDrawable() {
+        return zDrawable;
+    }
+
+    public void setzDrawable(Drawable zDrawable) {
+        this.zDrawable = zDrawable;
+    }
+
     @Override
     public void setSelected(boolean selected) {
         super.setSelected(selected);
