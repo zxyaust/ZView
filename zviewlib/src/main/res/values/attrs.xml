@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="ZView">
+        <attr name="zType" format="enum">
+            <enum name="drawalbe" value="0"></enum>
+            <enum name="color" value="1"></enum>
+        </attr>
+
+        //state default
+        <attr name="zColor" format="color" />
+        <attr name="zDrawable" format="reference" />
+        <attr name="zStrokeColor" format="color" />
+        <attr name="zStrokeWidth" format="dimension" />
+        <attr name="zPaddingT" format="dimension" />
+        <attr name="zPaddingB" format="dimension" />
+        <attr name="zPaddingL" format="dimension" />
+        <attr name="zPaddingR" format="dimension" />
+        <attr name="zCornerTL" format="dimension" />
+        <attr name="zCornerBL" format="dimension" />
+        <attr name="zCornerTR" format="dimension" />
+        <attr name="zCornerBR" format="dimension" />
+        //state pressed
+        <attr name="zPressedTextColor" format="color" />
+        <attr name="zPressedTextSize" format="dimension" />
+        <attr name="zPressedColor" format="color" />
+        <attr name="zPressedDrawable" format="reference" />
+        <attr name="zPressedStrokeColor" format="color" />
+        <attr name="zPressedStrokeWidth" format="dimension" />
+        <attr name="zPressedPaddingT" format="dimension" />
+        <attr name="zPressedPaddingB" format="dimension" />
+        <attr name="zPressedPaddingL" format="dimension" />
+        <attr name="zPressedPaddingR" format="dimension" />
+        <attr name="zPressedCornerTL" format="dimension" />
+        <attr name="zPressedCornerBL" format="dimension" />
+        <attr name="zPressedCornerTR" format="dimension" />
+        <attr name="zPressedCornerBR" format="dimension" />
+        <attr name="zPressedText" format="string" />
+        <attr name="zPressedSrc" format="reference"></attr>
+        //state selected
+        <attr name="zSelectedTextColor" format="color" />
+        <attr name="zSelectedTextSize" format="dimension" />
+        <attr name="zSelectedColor" format="color" />
+        <attr name="zSelectedDrawable" format="reference" />
+        <attr name="zSelectedStrokeColor" format="color" />
+        <attr name="zSelectedStrokeWidth" format="dimension" />
+        <attr name="zSelectedPaddingT" format="dimension" />
+        <attr name="zSelectedPaddingB" format="dimension" />
+        <attr name="zSelectedPaddingL" format="dimension" />
+        <attr name="zSelectedPaddingR" format="dimension" />
+        <attr name="zSelectedCornerTL" format="dimension" />
+        <attr name="zSelectedCornerBL" format="dimension" />
+        <attr name="zSelectedCornerTR" format="dimension" />
+        <attr name="zSelectedCornerBR" format="dimension" />
+        <attr name="zSelectedSrc" format="reference"></attr>
+        <attr name="zSelectedText" format="string" />
+        //state unable
+        <attr name="zUnableTextColor" format="color" />
+        <attr name="zUnableTextSize" format="dimension" />
+        <attr name="zUnableColor" format="color" />
+        <attr name="zUnableDrawable" format="reference" />
+        <attr name="zUnableStrokeColor" format="color" />
+        <attr name="zUnableStrokeWidth" format="dimension" />
+        <attr name="zUnablePaddingT" format="dimension" />
+        <attr name="zUnablePaddingB" format="dimension" />
+        <attr name="zUnablePaddingL" format="dimension" />
+        <attr name="zUnablePaddingR" format="dimension" />
+        <attr name="zUnableCornerTL" format="dimension" />
+        <attr name="zUnableCornerBL" format="dimension" />
+        <attr name="zUnableCornerTR" format="dimension" />
+        <attr name="zUnableCornerBR" format="dimension" />
+        <attr name="zUnableSrc" format="reference"></attr>
+        <attr name="zUnableText" format="string" />
+    </declare-styleable>
+</resources>
